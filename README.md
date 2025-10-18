@@ -94,18 +94,18 @@ ftp 192.168.56.103
 Sem as credenciais, não podemos acessar. Vamos preparar um ataque de força bruta com a ferramenta **Medusa**. Para isso, criaremos duas listas simples: uma de usuários e outra de senhas.
 
 1.  **Criar a lista de usuários (`usuarios.txt`):**
-        ``` 
-   ```  echo -e "user\nmsfadmin\nadmin\nroot"> users.txt```
-    ```bash echo -e "user\nmsfadmin\nadmin\nroot"> users.txt 
-      ```
+      
+    ```bash echo -e "user\nmsfadmin\nadmin\nroot"> users.txt ```
+    
     *Adicione algumas usuario comuns, uma por linha (ex: `msfadmin`, `root`, `helo`, `admin`)*
- <img width="534" height="43" alt="Image" src="https://github.com/user-attachments/assets/9b07e81c-8c50-4fb9-a5fe-4f8d2c15786a" />
+    <img width="534" height="43" alt="Image" src="https://github.com/user-attachments/assets/9b07e81c-8c50-4fb9-a5fe-4f8d2c15786a" />
 
-2.  **Criar a lista de senhas (`senhas.txt`):**
-    ```bash
-  echo -e "123456\npassword\nqwerty\nmsfadmin"> pass.txt  
-    ``
+3.  **Criar a lista de senhas (`senhas.txt`):**
+   bash
+     ```echo -e "123456\npassword\nqwerty\nmsfadmin"> pass.txt  ``` 
+    
     <img width="489" height="94" alt="Image" src="https://github.com/user-attachments/assets/27aa97ef-59af-45f3-a237-9a4eac557ff1" />
+    
     *Adicione algumas senhas comuns, uma por linha (ex: `msfadmin`, `password`, `123456`, `admin`)*
 
 ### Etapa 4: Execução do Ataque com Medusa
@@ -120,7 +120,7 @@ Com as listas prontas, vamos iniciar o ataque ao serviço FTP.
 * `-P`: Arquivo de senhas.
 * `-M`: Módulo do serviço a ser atacado (FTP).
 
-<img width="1275" height="327" alt="Image" src="https://github.com/user-attachments/assets/a15d4f61-9de3-4a47-b9c8-911fbbe333f6" /
+<img width="1275" height="327" alt="Image" src="https://github.com/user-attachments/assets/a15d4f61-9de3-4a47-b9c8-911fbbe333f6" />
 
 ### Etapa 5: Validação do Acesso
 
