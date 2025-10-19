@@ -58,7 +58,7 @@ ifconfig
 *No meu ambiente, o IP do alvo foi `192.168.56.103`. Anote o IP que aparecer no seu terminal.*
 
   <br> </br>
-> <img width="727" height="255" alt="Image" src="https://github.com/user-attachments/assets/38ac6045-e756-49f0-af48-854fac441806" />
+<img width="727" height="255" alt="Image" src="https://github.com/user-attachments/assets/38ac6045-e756-49f0-af48-854fac441806" />
 
 ### Etapa 2: Enumeração de Serviços (Máquina Atacante)
 
@@ -70,7 +70,7 @@ Agora, no Kali Linux, vamos confirmar a conectividade e descobrir os serviços q
     ping -c 3 192.168.56.103
     ```
   <br> </br>
-  > <img width="569" height="254" alt="Image" src="https://github.com/user-attachments/assets/eaf9c087-fc8d-4673-a974-4436d170523a" />
+<img width="569" height="254" alt="Image" src="https://github.com/user-attachments/assets/eaf9c087-fc8d-4673-a974-4436d170523a" />
 
 2.  **Escanear portas e serviços com Nmap:**
     O IP respondeu. Vamos usar o `Nmap` para identificar portas abertas e as versões dos serviços rodando nelas. Focaremos nos serviços de transferência de arquivos (FTP), acesso web (HTTP) e compartilhamento (SMB).
@@ -136,12 +136,9 @@ ftp 192.168.56.103
 * **Usuário:** `msfadmin`
 * **Senha:** `msfadmin`
 
-> <img width="307" height="114" alt="Image" src="https://github.com/user-attachments/assets/a1eec6df-bf7a-47c7-abe6-7dcbe1b560ad" />
+<img width="307" height="114" alt="Image" src="https://github.com/user-attachments/assets/a1eec6df-bf7a-47c7-abe6-7dcbe1b560ad" />
 
 **Sucesso! O acesso ao servidor FTP foi obtido.** O mesmo processo pode ser adaptado para atacar outros serviços identificados, como o HTTP.
-
----
-
 
 ## 🛡️ Recomendações de Mitigação
 
