@@ -95,15 +95,19 @@ Sem as credenciais, não podemos acessar. Vamos preparar um ataque de força bru
 
 1.  **Criar a lista de usuários (`usuarios.txt`):**
       
-    ```bash echo -e "user\nmsfadmin\nadmin\nroot"> users.txt ```
+    ```bash
+    echo -e "user\nmsfadmin\nadmin\nroot"> users.txt
+    ```
     
     *Adicione algumas usuario comuns, uma por linha (ex: `msfadmin`, `root`, `helo`, `admin`)*
+    <br> </br>
     <img width="534" height="43" alt="Image" src="https://github.com/user-attachments/assets/9b07e81c-8c50-4fb9-a5fe-4f8d2c15786a" />
 
 3.  **Criar a lista de senhas (`senhas.txt`):**
-   bash
-     ```echo -e "123456\npassword\nqwerty\nmsfadmin"> pass.txt  ``` 
-    
+  
+   ```bash
+   echo -e "123456\npassword\nqwerty\nmsfadmin"> pass.txt 
+   ```
     <img width="489" height="94" alt="Image" src="https://github.com/user-attachments/assets/27aa97ef-59af-45f3-a237-9a4eac557ff1" />
     
     *Adicione algumas senhas comuns, uma por linha (ex: `msfadmin`, `password`, `123456`, `admin`)*
